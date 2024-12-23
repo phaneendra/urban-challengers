@@ -1,0 +1,43 @@
+{
+  "cesVersion": "2.12.1",
+  "projectName": "urban-challengers",
+  "packages": [
+    {
+      "name": "expo-router",
+      "type": "navigation",
+      "options": {
+        "type": "drawer + tabs"
+      }
+    },
+    {
+      "name": "unistyles",
+      "type": "styling"
+    },
+    {
+      "name": "zustand",
+      "type": "state-management"
+    },
+    {
+      "name": "supabase",
+      "type": "authentication"
+    }
+  ],
+  "flags": {
+    "noGit": false,
+    "noInstall": false,
+    "overwrite": false,
+    "importAlias": true,
+    "packageManager": "pnpm",
+    "eas": false
+  },
+  "packageManager": {
+    "type": "pnpm",
+    "version": "9.13.2"
+  },
+  "os": {
+    "type": "Linux",
+    "platform": "linux",
+    "arch": "x64",
+    "kernelVersion": "6.9.3-76060903-generic"
+  }
+}
