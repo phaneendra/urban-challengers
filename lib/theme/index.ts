@@ -3,6 +3,7 @@ import { grayDarkA, grayDark } from './tokens/colors.dark';
 import { gray, grayA } from './tokens/colors.light';
 import { whiteA } from './tokens/colors.whiteA';
 import { borderRadiuses } from './tokens/radius';
+import { shadows } from './tokens/shadows';
 import { spacings } from './tokens/space';
 import {
   fontFamilies,
@@ -22,15 +23,19 @@ export const lightTheme = {
     xl: 1136,
   },
   colors: {
+    white: '#ffffff',
+    black: '#000000',
+    whiteA,
+    blackA,
     accent: {
-      ...blackA,
+      ...grayDark,
     },
-    accentSurface: '',
+    accentSurface: '#21212180',
     accentIndicator: blackA[9],
     accentTrack: blackA[9],
     accentContrast: 'white',
     accentA: {
-      ...blackA,
+      ...grayDarkA,
     },
     gray: {
       ...gray,
@@ -56,6 +61,7 @@ export const lightTheme = {
   fontWeights,
   lineHeights,
   letterSpacings,
+  shadows,
 };
 
 export const darkTheme = {
@@ -68,6 +74,10 @@ export const darkTheme = {
     xl: 1136,
   },
   colors: {
+    white: '#ffffff',
+    black: '#000000',
+    whiteA,
+    blackA,
     accent: {
       ...whiteA,
     },
@@ -103,4 +113,5 @@ export const darkTheme = {
   fontWeights,
   lineHeights,
   letterSpacings,
+  shadows,
 };

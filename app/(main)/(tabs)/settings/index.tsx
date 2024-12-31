@@ -1,14 +1,15 @@
 import { Stack } from 'expo-router';
+import React from 'react';
 
 import { ScreenContent } from '@/components/ScreenContent';
 import { Container } from '@/components/ui/Container';
 
-export default function Home() {
+export default function Settings() {
   return (
     <>
-      <Stack.Screen options={{ title: 'Home' }} />
+      <Stack.Screen options={{ title: 'Settings' }} />
       <Container>
-        <ScreenContent path="app/(drawer)/index.tsx" title="Home" />
+        <ScreenContent path="app/(main)/(tabs)/settings.tsx" title="Settings" />
       </Container>
     </>
   );

@@ -18,21 +18,22 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash_screen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.rtmobileuikit"
+      "bundleIdentifier": "com.phanee.urbanchallengers"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon/foreground.png",
+        "backgroundImage": "./assets/adaptive-icon/background.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.rtmobileuikit"
+      "package": "com.phanee.urbanchallengers"
     }
   }
 }

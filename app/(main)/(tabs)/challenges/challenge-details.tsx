@@ -1,14 +1,17 @@
 import { Stack } from 'expo-router';
+import React from 'react';
 
 import { ScreenContent } from '@/components/ScreenContent';
 import { Container } from '@/components/ui/Container';
 
-export default function Home() {
+export default function ChallengesDetailsPage() {
   return (
     <>
-      <Stack.Screen options={{ title: 'Tab Two' }} />
       <Container>
-        <ScreenContent path="app/(drawer)/(tabs)/two.tsx" title="Tab Two" />
+        <ScreenContent
+          path="app/(main)/(tabs)/Challenges/challenge-details.tsx"
+          title="Challenge Details"
+        />
       </Container>
     </>
   );

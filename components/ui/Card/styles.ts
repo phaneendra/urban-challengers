@@ -33,11 +33,13 @@ export const stylesheet = createStyleSheet((theme) => ({
           borderWidth: 1,
           borderColor: theme.colors.grayA[6],
           backgroundColor: theme.colors.panelSolid,
+          boxShadow: theme.shadows.shadow2(theme),
         },
         surface: {
           backgroundColor: theme.colors.panelTranslusent,
           borderWidth: 1,
           borderColor: theme.colors.grayA[6],
+          boxShadow: theme.shadows.shadow4(theme),
         },
         ghost: {
           backgroundColor: theme.colors.panelSolid,
