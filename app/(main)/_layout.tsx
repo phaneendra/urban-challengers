@@ -18,9 +18,9 @@ import { wp } from '@/lib/utils/scaling';
 const CustomDrawerContent = (props: DrawerContentComponentProps) => {
   const pathname = usePathname();
 
-  useEffect(() => {
-    console.log(pathname);
-  }, [pathname]);
+  // useEffect(() => {
+  //   console.log(pathname);
+  // }, [pathname]);
 
   const { styles, theme } = useStyles(stylesheet);
   return (

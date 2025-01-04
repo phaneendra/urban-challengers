@@ -34,6 +34,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.phanee.urbanchallengers"
-    }
+    },
+    "newArchEnabled": true
   }
 }

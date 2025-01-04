@@ -4,13 +4,13 @@ import React from 'react';
 import { ScreenContent } from '@/components/ScreenContent';
 import { Container } from '@/components/ui/Container';
 
-export default function ChallengesDetailsPage() {
+export default function ActivityDetailsPage() {
   return (
     <>
       <Container>
         <ScreenContent
-          path="app/(main)/(tabs)/challenges/challenge-details.tsx"
-          title="Challenge Details"
+          path="app/(main)/(tabs)/Activities/activity-details.tsx"
+          title="Activity Details"
         />
       </Container>
     </>

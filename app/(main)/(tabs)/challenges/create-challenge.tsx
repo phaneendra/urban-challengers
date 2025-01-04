@@ -8,7 +8,7 @@ export default function CreateChallengePage() {
     <>
       <Container>
         <ScreenContent
-          path="app/(main)/(tabs)/Challenges/create-challenge.tsx"
+          path="app/(main)/(tabs)/challenges/create-challenge.tsx"
           title="Create Challenge"
         />
       </Container>

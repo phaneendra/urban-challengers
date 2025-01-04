@@ -8,12 +8,10 @@ export default function _layout() {
       <Stack.Screen
         name="index"
         options={{
-          title: 'Challenges',
+          title: 'Settings',
           headerLeft: () => <DrawerToggleButton tintColor="#000" />,
         }}
       />
-      <Stack.Screen name="challenge-details" options={{ title: 'Challenge Details' }} />
-      <Stack.Screen name="create-challenge" options={{ title: 'Create Challenge' }} />
     </Stack>
   );
 }

@@ -1,41 +1,36 @@
-import { DrawerToggleButton } from '@react-navigation/drawer';
 import { Tabs } from 'expo-router';
 
-import { TabBarIcon } from '@/components/TabBarIcon';
+import { BottomTabBar } from '@/components/BottomTabBar';
 
 export default function TabLayout() {
   return (
     <Tabs
+      tabBar={(props) => <BottomTabBar {...props} />}
       screenOptions={{
-        headerLeft: () => <DrawerToggleButton tintColor="#000" />,
+        headerShown: false,
       }}>
       <Tabs.Screen
-        name="home/index"
+        name="home"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
       <Tabs.Screen
         name="challenges"
         options={{
           title: 'Challenges',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-          headerShown: false,
         }}
       />
       <Tabs.Screen
-        name="activities/index"
+        name="activities"
         options={{
           title: 'Activities',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="profile/index"
+        name="profile"
         options={{
           title: 'Profile',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
     </Tabs>
